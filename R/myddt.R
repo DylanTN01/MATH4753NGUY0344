@@ -7,8 +7,8 @@
 #' @param col Color
 #'
 #' @return Detailed plot of data for a specific species
-#' @importFrom ggplot2 aes geom_smooth ggplot geom_point ggtitle
-#' @importFrom utils write.csv
+#' @Imports:
+ggplot2
 #' @export
 #'
 #'
