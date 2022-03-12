@@ -7,8 +7,8 @@
 #' @param col Color
 #'
 #' @return Detailed plot of data for a specific species
-#' @Imports:
-ggplot2
+#' @import ggplot2
+#' @import utils
 #' @export
 #'
 #'

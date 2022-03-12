@@ -23,3 +23,6 @@ Detailed plot of data for a specific species
 \description{
 DDT Graph
 }
+\examples{
+\dontrun{myddt(df = ddt, SPECIES = "CCATFISH")}
+}
