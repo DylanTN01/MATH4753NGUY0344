@@ -10,6 +10,8 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{myddt(df = ddt, SPECIES = "CCATFISH")
+
 myddt <- function(df, x = "LENGTH", y = "WEIGHT", SPECIES, col = "RIVER"){ # Function declaration
   RIVER <- WEIGHT <- LENGTH <- NULL # Initializing variables to null
   df1 = ddt[df$SPECIES == SPECIES,] # Filtering dataframe to a specific species
