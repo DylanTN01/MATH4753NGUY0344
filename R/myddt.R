@@ -7,10 +7,13 @@
 #' @param col Color
 #'
 #' @return Detailed plot of data for a specific species
+#' @importFrom ggplot2 aes geom_smooth ggplot geom_point ggtitle
+#' @importFrom utils write.csv
 #' @export
 #'
+#'
 #' @examples
-#' \dontrun{myddt(df = ddt, SPECIES = "CCATFISH")
+#' \dontrun{myddt(df = ddt, SPECIES = "CCATFISH")}
 
 myddt <- function(df, x = "LENGTH", y = "WEIGHT", SPECIES, col = "RIVER"){ # Function declaration
   RIVER <- WEIGHT <- LENGTH <- NULL # Initializing variables to null
