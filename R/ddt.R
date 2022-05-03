@@ -1,6 +1,6 @@
 #' DDT Data Set for Fish
 #'
-#' 144 lines ofmeasurements of fish
+#' 144 lines of measurements of fish
 #'
 #'
 #' @format A data frame with 144 rows and 6 columns
